@@ -58,7 +58,6 @@ li span {
     height: 23px;
     display: inline-block;
     margin-right: 4px;
-}
 
 img.logo {
     /*background: url(../images/logos.png) 0px 0px;*/
@@ -248,4 +247,15 @@ div.account {
 }
 .footer a:hover {
     text-decoration: underline;
+}
+
+.header button {
+    background-color: #0077c5;
+    padding: 0 20px;
+    color: white;
+    cursor: pointer;
+    height: 34px;
+    font-weight: normal; 
+    border-radius: 4px;  
+    border: 1px solid #4c4c4c;
 }
