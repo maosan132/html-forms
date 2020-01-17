@@ -5,30 +5,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/styles.css" rel="stylesheet">
+        
     </head>
     <body>
-        <div class="header" style="float: right;">
+        <div class="header">
             <div class="account">
                 <p>Already have an Intuit account?</p>
                 <a href="#">I forgot my User ID or Password</a>
             </div>
             <button><span class="lock"></span>Sign In</button>
         </div>
-        <div class="center" style="clear: both;">
+        <div class="center">
             <div class="logo">
                 <img src="" alt="logo">
                 <ul>
-                    <li><span></span>mint</li>
-                    <li><span></span>quickbooks</li>
-                    <li><span></span>turbotax</li>
+                    <li><span class="mint"></span>mint</li>
+                    <li><span class="qbooks"></span>quickbooks</li>
+                    <li><span class="turbo"></span>turbotax</li>
                 </ul>
             </div>
             <div class="form">
-                <h4 class="">Create an Intuit account</h4>
-                <p class="more">One account for everything Intuit, including Mint.
+                <div class="form-title"><p>Create an Intuit account</p>
+                    <p class="more">One account for everything Intuit, including Mint. </p> 
                     <a href="" class="">Learn more</a>
-                </p>
-                <form class="">
+                </div>
+                <form class="inputs">
                     <fieldset>
                         <label>Email address</label>
                         <input type="email">   
@@ -36,7 +37,7 @@
                     <fieldset>
                         <label>Phone <span class="widetype">(recommended)</span></label>
                         <input type="number"> 
-                        <p>Standard call, messaging or data rates may apply.</p>  
+                        <span class="small">Standard call, messaging or data rates may apply.</span>  
                     </fieldset>
                     <fieldset>
                         <label>Password</label>
@@ -48,18 +49,18 @@
                     By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement.</a>
                 </p>
                 <div class="captcha">
-                    <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
+                    Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
                 </div>
             </div>
-            <div>
-                <p class="footer">
-                <a href="#">Legal</a><a href="#">Privacy</a><a href="#">Security</a>
-                © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
-Terms and conditions, features, support, pricing, and service options subject to change without notice.
-                </p>
-            </div>
+            
         </div>
-        
+        <div class="footer">
+            <a href="#">Legal</a><a href="#">Privacy</a><a href="#">Security</a>
+            <p>            
+            © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+            </p>
+            <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+        </div>
         
     </body>
 </html>
