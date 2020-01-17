@@ -24,7 +24,7 @@ body {
 
 .form {
     background-color: white;
-    border: 1px grey solid;
+    border: 1px #c7c7c7 solid;
     border-radius: 2px;
     /*padding: 30px;*/
 }
@@ -89,6 +89,11 @@ span.turbo{
 }
 fieldset {
     border: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+label {
+    margin-bottom: 10px;
 }
 div.form-title{    
     color: #4c4c4c;
@@ -122,13 +127,81 @@ label {
     color: #444;
     display: block;
     font-size: 10px;
-    font-weight: 400;+
-    in-height: 20px;
+    font-weight: 400;
+    line-height: 20px;
     padding: 5px 0;
 } 
+
+input {
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    color: #000;
+    display: block; 
+    height: 34px;
+    font-size: 1.2em;
+    line-height: 34px\9;
+    margin: 5px 0 0 0;
+    outline: none;
+    width: 320px;
+}
 .inputs {
     padding: 20px 30px 0 30px;
 }
+.inputs button, .header button  {
+    font-weight: 100;
+    background-color: #0077c5;
+    color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
+    margin-bottom: 0;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+.inputs button {
+    font-size: 18px;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    width: 100%;
+    height: 44px;
+}
+.header button {
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-bottom: 0;
+    width: auto;
+    height: 34px;
+}
+div.account {
+    float: left;
+    margin-right: 10px;
+}
+.account p {
+    display: inline-block;
+    clear: both;
+    margin-bottom: 5px;
+}
+.button {
+    float: left;
+}
+.lock {
+    background: url(../images/lock.png);
+}
+.form span.lock {
+    height: 15.75px;
+    width: 12.75;
+    background: url(../images/lock2.png) 0 0 no-repeat;
+    display: inline-block;
+    background-size: 12px 15px;
+    outline: green 1px solid;
+}
+.header span {
+    height: 13.5px;
+    width: 10.8px;
+    background: url(../images/lock.png) 0 0;
+    display: inline-block;
+    background-size: 10px 13px;
+ }   
 .terms {
     color: #757575;
     font-size: 12px;
