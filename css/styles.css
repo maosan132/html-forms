@@ -1,0 +1,145 @@
+body {
+    background-color: #eceef1;
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.header {
+    float:right;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.account {
+    font-weight: 400;
+    color: #505050;
+    font-size: 12px;
+} 
+.account p {
+    margin: 0;
+}
+
+.center {
+    clear: both;
+    margin:0 auto;
+    width: 380px;
+}
+
+.form {
+    background-color: white;
+    border: 1px grey solid;
+    /*border-radius: 2px;
+    padding: 30px;*/
+}
+.form * {
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+div.form {
+    box-sizing: border-box;
+}
+.form p, .logo {
+    text-align: center;
+}
+ul {
+    padding-left: 0;
+}
+li {
+    color: #757575;
+    display: inline;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+li span {
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    margin-right: 4px;
+    position: relative;
+    outline: 1px solid red;    
+}
+.mint li {
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-favicon-4accf8f4.svg) no-repeat;
+    margin-left: 0;
+}
+
+fieldset {
+    border: none;
+}
+div.form-title{    
+    color: #4c4c4c;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+}
+p.more {
+    color: #4c4c4c;
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0;
+}
+.form-title a {
+    color: #0077c5;
+    font-size: 12px;
+    font-weight: 200;
+    text-decoration: none;
+}
+label {
+    color: #404040;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.widetype {
+    font-weight: 200;
+}
+.small {  
+    color: #444;
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 5px 0;
+    min-height: 20px;
+} 
+.inputs {
+    padding: 20px 30px 0 30px;
+}
+.terms {
+    color: #757575;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.8;
+    padding: 20px 30px 0 30px;
+}
+.captcha {
+    color: #8d9096;
+    font-size: 10px;
+    background-color: #eceef1;
+    text-align: center;
+    padding: 20px;
+
+}
+.captcha a, .terms a, .account a {
+    color: #0077c5;
+    text-decoration: none;
+}
+.footer{
+    color: #505050;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0.6;
+    margin:0 auto;
+    margin-top: 30px;
+    text-align: center;
+    width: 800px;
+    
+}
+.footer a {
+    color: #505050;
+    padding: 0 5px;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
