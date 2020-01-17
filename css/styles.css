@@ -25,8 +25,8 @@ body {
 .form {
     background-color: white;
     border: 1px grey solid;
-    /*border-radius: 2px;
-    padding: 30px;*/
+    border-radius: 2px;
+    /*padding: 30px;*/
 }
 .form * {
     border-radius: 2px;
@@ -38,10 +38,14 @@ div.form {
 .form p, .logo {
     text-align: center;
 }
+.icons {
+    cursor: pointer;
+    text-align: center;
+}
 ul {
     padding-left: 0;
 }
-li {
+li { 
     color: #757575;
     display: inline;
     font-weight: 300;
@@ -54,14 +58,35 @@ li span {
     height: 23px;
     display: inline-block;
     margin-right: 4px;
-    position: relative;
-    outline: 1px solid red;    
-}
-.mint li {
-    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-favicon-4accf8f4.svg) no-repeat;
-    margin-left: 0;
 }
 
+img.logo {
+    background: url(../images/logos.png) 0px 0px;
+    height: 35px;
+    display: inline-block; 
+    width: 118px; 
+}
+.icons li{
+offset-position: -5px;
+}
+span.mint{
+    background: url(../images/logos.png) -253px -56px;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+}
+span.qbooks{
+    background: url(../images/logos.png) -331px -56px;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+}
+span.turbo{
+    background: url(../images/logos.png) 0px -56px;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+}
 fieldset {
     border: none;
 }
@@ -97,9 +122,9 @@ label {
     color: #444;
     display: block;
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 400;+
+    in-height: 20px;
     padding: 5px 0;
-    min-height: 20px;
 } 
 .inputs {
     padding: 20px 30px 0 30px;
