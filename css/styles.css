@@ -61,7 +61,7 @@ li span {
 }
 
 img.logo {
-    background: url(../images/logos.png) 0px 0px;
+    /*background: url(../images/logos.png) 0px 0px;*/
     height: 35px;
     display: inline-block; 
     width: 118px; 
@@ -76,7 +76,7 @@ span.mint{
     width: 24px;
 }
 span.qbooks{
-    background: url(../images/logos.png) -331px -56px;
+    background: url(../images/logos.png) -113px -56px;
     display: inline-block;
     height: 24px;
     width: 24px;
@@ -187,13 +187,12 @@ div.account {
 .lock {
     background: url(../images/lock.png);
 }
-.form span.lock {
+.inputs span.lock {
     height: 15.75px;
-    width: 12.75;
-    background: url(../images/lock2.png) 0 0 no-repeat;
+    width: 12.75px;
+    background: url(../images/lock.png) 0 0 no-repeat;
     display: inline-block;
     background-size: 12px 15px;
-    outline: green 1px solid;
 }
 .header span {
     height: 13.5px;
@@ -201,7 +200,16 @@ div.account {
     background: url(../images/lock.png) 0 0;
     display: inline-block;
     background-size: 10px 13px;
+ }
+ div.lock-right {
+     position: relative;
  }   
+.lock-right img {
+    position: absolute;
+    right: 10px;
+    top: 6px
+}
+
 .terms {
     color: #757575;
     font-size: 12px;
