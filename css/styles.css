@@ -51,6 +51,7 @@ li {
     display: inline;
     font-weight: 300;
     font-size: 18px;
+    height: 24px;
     line-height: 3px;
     letter-spacing: 1px;
     position: absolute;
