@@ -24,7 +24,6 @@ body {
     background-color: white;
     border: 1px #C7C7C7 solid;
     border-radius: 2px;
-    /*padding: 30px;*/
 }
 .form * {
     border-radius: 2px;
@@ -58,7 +57,6 @@ li {
     position: absolute;
 }
 img.logo {
-    /*background: url(../images/logos.png) 0px 0px;*/
     display: inline-block; 
     height: 35px;
     width: 118px; 
